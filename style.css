@@ -1,0 +1,126 @@
+body
+{
+	background-color: #000d1a;
+	color: #ffffff;
+	font-family: 'Rancho', cursive;
+	font-size: 20px;
+}
+.container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+.logo
+	{
+		color: white;
+        font-family: 'Pacifico', cursive;
+        font-size: 100px;
+		text-align: center;
+        margin: 10px;
+        padding: 10px;
+
+	}
+.nav
+	{
+		float: left;
+		width: 200px;
+        min-height: 300px;
+	}
+.tile
+    {   
+        float:  left;
+        color: white;
+		width: 160px;
+		margin: auto;
+        padding: 10px;
+        text-align: center; 
+		border: 1;
+		background: #668cff;
+		border:1px solid #00008B;
+		border-radius: 5px;
+		border-color: white;
+		box-shadow: 0 2px 0 #ccd9ff;
+		color: black;
+		cursor: pointer;
+		font: inherit;
+		position:relative;
+		outline: 0;
+		transition: all .1s linear;   
+}
+.tile:hover
+    {
+        background-color: mediumslateblue;
+		box-shadow: 0 2px 0 #ccd9ff;
+		border-radius: 30px;
+		transition: all .3s linear;  
+    }
+.tile:active
+	{
+		box-shadow: 0 2px 0 #ccd9ff;
+		transform: translateY(5px);	  
+	}
+.content
+	{
+		float: left;
+        background-color: #1d99ff;
+        color: black;
+		width: 700px;
+		min-height: 620px;
+		padding: 40px;
+	}
+h2
+    {
+        margin-top: auto;
+		font-size: 40px;
+		color: black;
+        text-transform: uppercase;
+        text-align: center
+		
+        
+    }
+h4 
+	{
+		margin-top: auto;
+        text-transform: uppercase;
+        text-align: center
+	}
+
+#datapicer
+    {
+        background-color: lightgrey;
+        color: black;
+        
+    }
+.footer
+	{
+		clear: both;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+a.tilelink
+    {
+        color: #cce6ff;
+        text-decoration: none;
+        display: block;
+    }
+.search
+	{
+		width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	}
+.search:focus
+{
+	width: 100%;
+}

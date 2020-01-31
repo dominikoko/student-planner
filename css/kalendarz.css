@@ -1,0 +1,56 @@
+
+.kalendarz .kalendarz-btn:before {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 16px;
+  font-size: 24px;
+  line-height: 46px;
+}
+
+.kalendarz.active .kalendarz-btn {
+  color: #fff;
+  background-color: #032c53;
+}
+
+.kalendarz.active .kalendarz-btn:before {
+  font-size: 20px;
+  line-height: 44px;
+}
+
+.kalendarz.active .kalendarz-list {
+  display: block;
+}
+
+.kalendarz-list {
+  position: relative;
+  z-index: 2;
+  padding: 0 12px;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px 0px #bababa;
+}
+
+.kalendarz-item {
+  list-style: none;
+  padding: 14px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.kalendarz-item a {
+  color: #032c53;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.kalendarz-item a:hover {
+  color: #032c53;
+  text-decoration: underline;
+}
+
+.kalendarz-item:last-child {
+  border-bottom: 0;
+}
+
